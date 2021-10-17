@@ -1,0 +1,17 @@
+Kamil Adamczyk
+
+Data appendix
+The description of all files included in the Analysis_Data directory.
+
+New_drinks.csv
+Final, refactorized file made out of the original drinks.csv, which can be found in the Original_Data directory. It was based on the 2010 research concluded by WHO.
+
+Variables:
+- country - name of the country the data originates from
+- beer_servings - average number of cans of beer consumed per person for those age 15 and over in each country
+- spirit_servings - average number of shots of spirit consumed per person for those age 15 and over in each country
+- wine_servings - average number of glasses of wine consumed per person for those age 15 and over in each country
+- total_litres_of_pure_alcohol - cumulated value of average consumption of pure alcohol per person in liters
+
+Countries_without_records.txt
+File containing a list of countries deleted from the original file, since all of them didn't show any records (a value of 0 for every variable except country name).

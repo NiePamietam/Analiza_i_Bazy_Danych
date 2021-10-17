@@ -1,0 +1,7 @@
+Kamil Adamczyk
+
+The task focused on refactoring a given data file to a format more suited for "tidy data" ruleset. 
+After brief data analysis I realized that some countries listed in the drikns.csv file didn't show any records - all values were equal to 0. I assume it's becacuse it was not possible to find sufficient data for them.
+I decided to get rid of those records and reindex the remaining ones to create a new file "new_drinks.csv". For that purpose I created a Jupyter notebook file lab2.ipynb and used Python 3 with pandas library to fulfil the task.
+In order not to lose the names of countries with empty records, I added an additional funcionality to the same lab2.ipynb file that extracts a list of those countries before deletion and imports them into a "Countries_without_records.txt" file.
+Both of the mentioned files can be found in the Analysis_Data directory.

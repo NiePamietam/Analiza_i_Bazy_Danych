@@ -1,0 +1,15 @@
+Kamil Adamczyk
+
+The original data is based on an article titled "Dear Mona Followup: Where Do People Drink The Most Beer, Wine And Spirits?" published on Aug 13, 2014 on fivethirtyeight.com.
+Link to the article can be found here: https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/
+The data itself is extracted from a 2010 research conducted by World Health Organization.
+
+I aquired the data in Oct 2021 and the download link to the data repository can be found here: https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption
+There is a file named "drinks.csv", which is the basis of this task and it is also stored in current's repository Original_Data directory.
+
+Original file's (drink.csv) variables:
+- country - name of the country the data originates from
+- beer_servings - average number of cans of beer consumed per person for those age 15 and over in each country
+- spirit_servings - average number of shots of spirit consumed per person for those age 15 and over in each country
+- wine_servings - average number of glasses of wine consumed per person for those age 15 and over in each country
+- total_litres_of_pure_alcohol - cumulated value of average consumption of pure alcohol per person in liters
